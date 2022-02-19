@@ -24,5 +24,5 @@ def process_sniffed_packet(packet):
         if login_info:
             print("\n\n[+] Possible username/password >>"+login_info+"\n\n")
 
-
-sniff("eth0")
+adapter=raw_input("[+] Please Specify your adapter name >>")
+sniff(adapter)
